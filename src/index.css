@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  /* margin-top: 60px; */
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+input {
+  width: 500px;
+  height: 60px;
+}
+
+button {
+  width: 100px;
+  height: 60px;
+}
